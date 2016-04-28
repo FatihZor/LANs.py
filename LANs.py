@@ -1,8 +1,8 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 '''
-Description:   ARP poisons a LAN victim and prints all the interesting unencrypted info like usernames, passwords and messages. Asynchronous multithreaded arp spoofing packet parser.
-Prerequisites: Linux
+TANIM:   ARP poisons a LAN victim and prints all the interesting unencrypted info like usernames, passwords and messages. Asynchronous multithreaded arp spoofing packet parser.
+GEREKLI: Linux
                nmap (optional)
                nbtscan (optional)
                aircrack-ng
@@ -11,7 +11,7 @@ Prerequisites: Linux
                scapy
                twisted
 
-Note:          This script flushes iptables before and after usage.
+Not:          Bu script kullanımdan önce ve sonra iptables temizler.
 '''
 
 
